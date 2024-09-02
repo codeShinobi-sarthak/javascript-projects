@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(66, 62, 62);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container{
+    border-radius: 7px;
+    border: 12px solid rgb(41, 39, 39);
+}
+
+#button{
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom, rgb(121, 119, 119), rgb(101, 99, 99));
+    font-size: 25px;
+    box-shadow: 3px 2px 0px;
+    
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 7px;
+    padding: 7px 15px;
+}
+
+#button:hover{
+    background-color: gray;
+    box-shadow: 2px 3px 5px;
+}
+
+#button:active{
+    transform: translateY(3px);
+}
